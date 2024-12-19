@@ -5,17 +5,19 @@ import '../form/App.css'
 
 
 
-export default function Form() {
+
+export default function FormLogin() {
     return (
 
             <form>
-                <h1 id="TituloCadastro">Cadastrar</h1>
+                <h1 id="TituloLogin">Logar</h1>
                 <Input type = "Email" name = "Email" text = "Email" id = "email"></Input>
                 <Input type = "password" name = "Senha" text = "Senha" id = "senha"></Input>
-                <Input type = "password" name ="Comfirme Senha" text = "Confirme Senha" id = "confirmesenha"></Input>
-                <button type ="submit"> Cadastrar</button>
-                <h5><a href="indexLogin.html">Login?</a></h5>
+                 <button type ="submit"> Entrar</button>
+                <h5><a href="index.html">Voltar?</a></h5>
+               
       
+
             </form>
     
     )
