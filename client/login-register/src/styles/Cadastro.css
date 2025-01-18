@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(45deg, #395555, cyan);
+    background-image: linear-gradient(45deg, rgb(1, 179, 179), rgb(0, 24, 158));
 }
 
 .principal{
@@ -12,6 +12,13 @@ body{
     padding: 80px;
     border-radius: 5px;
     color: white;
+    
+}
+
+a{
+    color: green;
+    text-align: center;
+    margin-left: 70px;
     
 }
 
@@ -35,10 +42,4 @@ button{
 button:hover{
     background: deepskyblue;
     cursor: pointer;
-}
-
-a {
-    color: green;
-    text-align: center;
-    margin-left: 70px;
 }

@@ -4,16 +4,18 @@ import "../styles/App.css"
 
 export default function FormCadastro() {
     return (
-
+        <div class="principal">
             <form>
-                <h1 id="TituloLogin">Cadastrar</h1>
-                <Input type = "Email" name = "Email" text = "Email" id = "email"></Input>
-                <Input type = "password" name = "Senha" text = "Senha" id = "senha"></Input>
-                <Input type = "password" name = "Senha" text = "Confirme Senha" id = "senha"></Input>
-                 <button type ="submit"> Cadastrar</button>
-                <h5><a href="login.html">Voltar?</a></h5>
+                <h1>Cadastro</h1>
+                <input type="text" placeholder="Email" id="nome"></input> <br></br><br></br>
+                <input type="password" placeholder="Senha" id="password"></input> <br></br><br></br>
+                <input type="password" placeholder="Confirmar Senha" id="password"></input> <br></br><br></br>
+                <button type="submit">Cadastrar</button>
+            </form> <br></br> <br></br>
+            <a href="login.html">Logar</a>
+        </div>
 
-            </form>
-    
+        
+        
     )
 }
