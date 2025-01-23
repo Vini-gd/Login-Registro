@@ -20,4 +20,8 @@ const db = mysql.createConnection({
 
 app.post('/register', (req, res) => {
     // Variáveis do formulário
+    const setEmail = req.body.Email
+    const setPassword = req.body.Senha
+
+    const SQL = 'INSERT INTO usuario(Email, Senha) VALUES (?, ?)'
 })
