@@ -14,8 +14,5 @@ export default function FormCadastro() {
             </form> <br></br> <br></br>
             <a href="login.html">Logar</a>
         </div>
-
-        
-        
     )
 }

@@ -9,3 +9,15 @@ const cors = require("cors");
 app.listen(3002, ()=> {
     console.log("O Servidor está rodando na porta 3002");
 })
+
+//Banco de Dados
+const db = mysql.createConnection({
+    user: 'root',
+    host: 'localhost',
+    password: '',
+    database: 'loginregistro'
+})
+
+app.post('/register', (req, res) => {
+    // Variáveis do formulário
+})
